@@ -1,5 +1,5 @@
 ---
-id: computer-networks-introduction-history-and-internet-architecture
+id: 01-computer-networks-introduction-history-and-internet-architecture
 title: Introduction, History, and Internet Architecture
 course: computer-networks
 lecture: 01-introduction-history-and-internet-architecture
