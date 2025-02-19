@@ -6,6 +6,8 @@ In the following lessons, we will cover the impacts that AI and ML have on indiv
 
 ## Lesson 1 Introduction
 
+** China Credit System ** Leo Hoo was limited from travel. SensTime. Wu Fay makes it.
+
 ### What Is Big Data
 
 **Big data** is the term increasingly used to describe the process of applying serious computing power - the latest in ML and AI - to seriously massive and often highly complex sets of information. As of 2019, there are 2.5 quintillion bytes of data created each day at our current pace.
@@ -26,18 +28,33 @@ Some of the goals of this class include:
 
 Humans are inherently biased. If bad data is used to train an algorithm then results will have unintended consequences.
 
+Physiognomy - using outer appearance to infer inner characteristics.
+
 ## Lesson 3 Ethics Vs. Law
 
 ### AI And Unintended Consequences
 
 There are many unintended consequences if algorithms are trained with bad data:
 
-- Appearance biases in identity software
+- Appearance biases in identity software. 
 - Gender biases in identity software
 - Biases in AI chat bots
 - Biases in health systems
 - Biases in automated hiring systems
 - Biases in automated justice systems
+
+- Blinking (Rose 2010)
+- Eyes open (Grffiths 2016)
+- Pulliam-Moore (2015), Simonite (2018)
+  NLP
+- Harwell 2018. Understood by language
+- Metz 2018, Hornigold 2019 for Microsoft neo-Nazi sexbot
+- Gender Bias Google Specch (Tatman 2016) (Vincnent 2018)
+
+  Predictive
+  - 3 white happy, 3 black mad (Guarino 2016)
+  - Doctors men, Nurses women (Kay 2015)
+  - Amazon AI Recruiting (Dastlin 2018)
 
 ### Relationship Between Ethics And Law
 
@@ -53,26 +70,43 @@ There are three primary relationships between ethics and law:
 2. No overlap
 3. Conflict
 
+2017 Startup, Humu AI data behavior of humans to actions to help employees.
+
 ### Overview Of US Laws
 
 There are several general categories of US law:
 
-- Civil
-- Criminal
-- Private
-- Public
+- Civil conflicts orginzations and people. governs nation or state
+- Criminal society
+- Private individuals and organizations. commercial, labor law, family law
+- Public regulate structure/admin of government agencies. relationships with citizens
 
 On the other hand, the purpose of _regulations_ is to achieve certain public desired goals that the market may fail to realize (i.e., protect to public). Some examples include:
 
-- Credit
-- Education
-- Employment
-- Housing and public accommodation
+- Credit - Equal Opportunity Act
+- Education - Education Amendments 1972, Civil Rights Act of 1964
+- Employment - Civil Rights Act of 1974
+- Housing and public accommodation - Fair Housing Act, Civil Rights Act of 1964
+
+  
+Race (Civil Rights Act of 1964, 1991)
+Color (Civil Rights Act of 1964, 1991)
+Sex (Equal Pay Act of 1963; Civil Rights Act of 1964, 1991)
+Religion (Civil Rights Act of 1964, 1991)
+National origin (Civil Rights Act of 1964, 1991)
+Citizenship (Immigration Reform and Control Act)
+Age (Age Discrimination in Employment Act of 1967) (over 40)
+Pregnancy (Pregnancy Discrimination Act)
+Familial status (Civil Rights Act of 1968)
+Disability status (Rehabilitation Act of 1973; Americans with Disabilities Act of 1990)
+Veteran status (Vietnam Era Veterans' Readjustment Assistance Act of 1974; Uniformed Services Employment and Reemployment Rights Act)
+Genetic information (Genetic Information Nondiscrimination Act)
+
 
 **Discrimination** is prohibited on the basis of membership in a protected class-group which has historically been discriminated against. Forms of discrimination (or bias) include:
 
-- Intentional
-- Unconscious
+- Intentional - deliberate and conscious, negative stereotypes
+- Unconscious - not deliberate, but unconsciously based on negative stereotypes
 
 How do we know if a group is statistically discriminated against?
 
@@ -90,6 +124,7 @@ How do we know if a group is statistically discriminated against?
 ### Code Of Ethics
 
 Professional boards and organizations have written cods which hold members to a higher standard than the law imposes - ethic codes.
+ACM 1947
 
 ### Ethical Issues For Big Data
 
@@ -126,6 +161,11 @@ Scenario: code is stolen from a competitor but could potentially save millions o
 
 **Information privacy** is the relationship between the collection and dissemination of data, technology, the public expectation of privacy, legal, and political issues surrounding them.
 
+Financial Services Mondernization Act - 1999 
+Federal Privacy Act of 1974 - Regulate government individual privacy
+Electronic Communication Privacy act of 1986
+HIPAA Health insurance Portability and Accountability Act - 1996
+
 ### Data Management Practices
 
 Who owns our data? There are billions of users online everyday that unknowingly have their data collected by mysterious third parties. Why is it that for most services we use in life there is ownership but when it comes to data the answer is ambiguous?
@@ -134,7 +174,7 @@ Who owns our data? There are billions of users online everyday that unknowingly 
 
 **IP (intellectual property) rights** are the rights given to persons over the creations of their minds. They usually give the creator an exclusive right over the user of his/her creation for a certain period of time. When you create information, you typically acquire the rights to that information. Consequently, unauthorized replication and/or re-use of your information would be a breach of your rights.
 
-Thankfully, laws such as **GDPR (General Data Protection Regulation)** imposes new rules on organizations that offer goods and services to people in the EU (European Union). Key GDPR clauses include:
+Thankfully, laws such as **GDPR (General Data Protection Regulation)** 2018 imposes new rules on organizations that offer goods and services to people in the EU (European Union). Key GDPR clauses include:
 
 - Valid consent must be _explicit_ (opt-in based) for data collected and the purposes data is used
 - The data subject has the right to request _erasure_ of personal data related to them
@@ -171,7 +211,10 @@ How can data be biased?
 
 Additionally, the data collection and measurement processes could introduce bias in out data. Some biases are preexisting. All the above issues makes it difficult to identify which specific group the algorithm might be biased against.
 
+Limited and coarse features, sample size disparity, skewed sample, tainted examples, features that act as proxies and conscious prejudics (intentional)
+
 Another problem that exists is that if researchers want to find if bias exists with respect to individuals having attribute $X$, they would likely have to _infer_ attribute $X$ from a database which implies that companies would have to reconstruct data (a potential privacy violation).
+
 
 ### Fairness​
 
@@ -189,3 +232,8 @@ How do we go about quantifying fairness? We can use the loan scenario as an exam
 
 - **Statistical parity**: ensure group fairness requires the same percentage of A and B receiving the same service. One issue is what happens if one group is more likely to repay vs. another?
 - **Consistency**: ensure individual fairness by ensuring similar individuals experience similar outcomes. One issue is what happens if a _fair_ outcome treats everyone poorly?
+
+risk difference = RD = p1 - p2
+risk ratio = RR = p1/p2
+
+prot
