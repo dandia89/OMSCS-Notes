@@ -27,6 +27,8 @@ In order to analyze and interpret data, we must first collect it. The data that 
 
 Interpreting data often involves displaying it in some useful way (e.g. chart, graphs, etc.). Unfortunately it is fairly easy to lie, cheat, manipulate, or mislead the public with graphical displays.
 
+UR = unemployed / unemployed + LR
+
 ## Lesson 7 Python And Stats 101
 
 ### Defining Data Analytics
@@ -106,8 +108,11 @@ A **frequency distribution** keeps count of the number of times a data item occu
 
 ### Variability
 
-**Variability** (or dispersion) measures the amount of scatter in a dataset. Gives us an indication of indicate how well the average characterizes the data as a whole.
+**Range** Calculates the difference between lowest and highest 
 
+**Variability** (or dispersion) measures the amount of scatter in a dataset. Gives us an indication of indicate how well the average characterizes the data as a whole.
+Variance = s^2 = ((x1 - mean)^2 + (xn - mean)2 )/ (n-1)
+std dev is sqr(variance)
 Commonly used variability methods include: range, variance, standard deviation, inter-quartile range, coefficient of variation, etc. The **five number summary**: is a summary of a distribution which consists of:
 
 1. Min
